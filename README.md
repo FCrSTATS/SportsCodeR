@@ -1,5 +1,5 @@
 
-<img width="300" alt="portfolio_view" align="right" src="https://github.com/FCrSTATS/SportsCodeR/blob/master/img/SportsCodeR.png">
+<img width="250" alt="portfolio_view" align="right" src="https://github.com/FCrSTATS/SportsCodeR/blob/master/img/SportsCodeR.png">
 
 # SportsCodeR
 
