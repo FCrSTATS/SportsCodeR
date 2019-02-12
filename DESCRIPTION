@@ -1,0 +1,15 @@
+Package: SportsCodeR
+Type: Package
+Title: Converts dataframes to SportsCode ready XML files
+Version: 0.0.9
+Authors@R: 
+    person("Joe", "Mulberry", email = "jmu@fcn.dk", role = c("aut", "cre"))
+Description: Coaches, players and video analysts love video. Many analyts use SportsCode to tag events 
+  and allow detailed video analysis of the action. SportCode allows XML files to be imported and automatically 
+  generate timelines of analysis. This feature is often under utilised but provides an amazing oppouritniy to 
+Encoding: UTF-8
+LazyData: true
+Depends: 
+	XML
+RoxygenNote: 6.1.1
+License: MIT + file LICENSE
