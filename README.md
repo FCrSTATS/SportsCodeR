@@ -1,5 +1,5 @@
 
-<img width="200" alt="portfolio_view" src="https://github.com/FCrSTATS/SportsCodeR/blob/master/img/SportsCodeR.png">
+<img width="200" alt="portfolio_view" align="right" src="https://github.com/FCrSTATS/SportsCodeR/blob/master/img/SportsCodeR.png">
 
 A package with various functions that help people working with OPTA and ChyronHego data, this will be a regularly updated with new functions. Installed via: 
 
