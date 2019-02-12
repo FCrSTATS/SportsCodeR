@@ -7,13 +7,17 @@ Sporstcode is one of the leading video analysis software in the performance anal
 
 A powerful feature of Sportscode is the ability to import an XML file that creates timelines of clips from the related data. This is a largely under-utilised feature that has huge potential. The SportsCodeR package aims to increase it's usage by making it easy from turning a dataframe of metrics into a SportsCode ready XML file. 
 
+This is a beta version, with more functions to be added at a later date. Feedback will be gratefully received to improve the package. 
 
+## Install Instructions
+
+The package is easy to install via devtools using the following line of code. 
 
 ``` r
 devtools::install_github("FCrSTATS/SportsCodeR")
 ```
 
-## Parsing Functions 
+## Functions 
 
-### parse_f24()
-**Parse an OPTA f24 Files:** An OPTA f24 file is an xml file with all of the data for each event of a match. The parse_24() function takes the file location and parses the XML file converting it into a dataframe. All qualifiers are in columns named after them. If the qualifier doesn't have a value but was present it is represented by the value 1.
+### df_to_xml_player_team_metric()
+**Convert a dataframe into a SportsCode XML file:** Creates an XML file that will put players on rows and put one metric as a value. Refer to the help file for guidance - help(df_to_xml_player_team_metric).
