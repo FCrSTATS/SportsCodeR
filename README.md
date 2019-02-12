@@ -1,10 +1,16 @@
 
-<img width="200" alt="portfolio_view" align="right" src="https://github.com/FCrSTATS/SportsCodeR/blob/master/img/SportsCodeR.png">
+<img width="300" alt="portfolio_view" align="right" src="https://github.com/FCrSTATS/SportsCodeR/blob/master/img/SportsCodeR.png">
 
-A package with various functions that help people working with OPTA and ChyronHego data, this will be a regularly updated with new functions. Installed via: 
+# SportsCodeR
+
+Sporstcode is one of the leading video analysis software in the performance analysis field today, used by thousands of analysts, coaches and athletes around the world. The platform allows analysts and coaches to visually identify what went well and what could be improved in a training session or game by providing a quick and easy way to create interactive reports linked to key highlights. The process is very simple: capture your video into Sportscode, code the different events that take place in the footage, evaluate the results of the relevant events captured and present the insights to coaches and athletes. 
+
+A powerful feature of Sportscode is the ability to import an XML file that creates timelines of clips from the related data. This is a largely under-utilised feature that has huge potential. The SportsCodeR package aims to increase it's usage by making it easy from turning a dataframe of metrics into a SportsCode ready XML file. 
+
+
 
 ``` r
-devtools::install_github("FCrSTATS/fc.rstats")
+devtools::install_github("FCrSTATS/SportsCodeR")
 ```
 
 ## Parsing Functions 
