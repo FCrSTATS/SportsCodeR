@@ -21,3 +21,7 @@ devtools::install_github("FCrSTATS/SportsCodeR")
 
 ### df_to_xml_player_team_metric()
 **Convert a dataframe into a SportsCode XML file:** Creates an XML file that will put players on rows and put one metric as a value. Refer to the help file for guidance - help(df_to_xml_player_team_metric).
+
+### df_to_xml_team_metric()
+**Convert a dataframe into a SportsCode XML file:** Creates an XML file that will put teams on rows and put one metric as a value. Refer to the help file for guidance - help(df_to_xml_team_metric).
+
